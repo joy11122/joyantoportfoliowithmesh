@@ -1,18 +1,25 @@
 {
   "name": "my-app",
+  
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  "engines": {
+  "node": "20.x"
+},
+ "scripts": {
+  "dev": "vite",
+  "build-ts": "tsc -b",
+  "build-vite": "vite build",
+  "build": "npm run build-ts && npm run build-vite",
+  "lint": "eslint .",
+  "preview": "vite preview"
+},
+
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "@hookform/resolvers": "^5.2.2",
-    "@radix-ui/react-accordion": "^1.2.12",
+    "@radix-ui/react-accordion": "^1.2.1git add package.json2",
     "@radix-ui/react-alert-dialog": "^1.1.15",
     "@radix-ui/react-aspect-ratio": "^1.1.8",
     "@radix-ui/react-avatar": "^1.1.11",
@@ -78,5 +85,6 @@
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.4",
     "vite": "^7.2.4"
+    
   }
 }
