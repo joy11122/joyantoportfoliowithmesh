@@ -35,9 +35,9 @@ const Services = () => {
     },
     {
       icon: Palette,
-      title: 'Branding',
-      description: 'Crafting unique brand identities that resonate with your target audience.',
-      features: ['Logo Design', 'Brand Strategy', 'Visual Identity', 'Brand Guidelines'],
+      title: 'Figma To Webflow',
+      description: 'Pixel-perfect Figma to Webflow conversion, fully responsive.',
+      features: ['FigmaToWebflow', 'Pixel Perfect', 'Visual Identity', 'Brand Guidelines'],
       color: 'from-topaz to-golden',
     },
     {

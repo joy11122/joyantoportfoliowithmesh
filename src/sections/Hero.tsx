@@ -196,9 +196,9 @@ const Hero = () => {
               {/* Stats */}
               <div className="mt-16 grid grid-cols-3 gap-8">
                 {[
-                  { value: '5+', label: 'Years Experience' },
-                  { value: '50+', label: 'Projects Completed' },
-                  { value: '30+', label: 'Happy Clients' },
+                  { value: '1+', label: 'Years Experience' },
+                  { value: '10+', label: 'Projects Completed' },
+                  { value: '03+', label: 'Happy Clients' },
                 ].map((stat, index) => (
                   <div key={index} className="float-element">
                     <div className="text-fluid-2xl font-display font-bold text-topaz neon-text">
@@ -219,7 +219,7 @@ const Hero = () => {
                 {/* Image Frame */}
                 <div className="absolute inset-0 rounded-3xl overflow-hidden">
                   <img
-                    src="/hero-portrait.jpg"
+                    src="/hero.jpg"
                     alt="Joyanta Halder"
                     className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   />
@@ -246,7 +246,7 @@ const Hero = () => {
 
                 {/* Experience Badge */}
                 <div className="float-element absolute -top-4 -right-4 glass-strong rounded-full w-24 h-24 flex flex-col items-center justify-center">
-                  <span className="text-2xl font-bold text-topaz">5+</span>
+                  <span className="text-2xl font-bold text-topaz">1+</span>
                   <span className="text-xs text-white/60">Years</span>
                 </div>
               </div>
