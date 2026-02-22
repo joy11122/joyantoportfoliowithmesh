@@ -136,22 +136,22 @@ const Footer = () => {
               <ul className="space-y-4">
                 <li>
                   <a
-                    href="mailto:hello@joyantahalder.com"
+                    href="mailto:joyhaldar112233@gmail.com"
                     className="text-white/60 hover:text-topaz transition-colors duration-300"
                   >
-                    hello@joyantahalder.com
+                    joyhaldar112233@gmail.com
                   </a>
                 </li>
                 <li>
                   <a
-                    href="tel:+15551234567"
+                    href="tel:01904914544"
                     className="text-white/60 hover:text-topaz transition-colors duration-300"
                   >
-                    +1 (555) 123-4567
+                    01904914544
                   </a>
                 </li>
                 <li className="text-white/60">
-                  San Francisco, CA
+                  khulna - bangladesh, 9100
                 </li>
               </ul>
             </div>
@@ -160,7 +160,7 @@ const Footer = () => {
           {/* Bottom Bar */}
           <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-white/40 text-sm flex items-center gap-1">
-              © 2025 Joyanta Halder. Made with <Heart className="w-4 h-4 text-topaz fill-topaz" /> in San Francisco
+              © 2025 Joyanta Halder. 
             </p>
             
             {/* Back to Top */}
