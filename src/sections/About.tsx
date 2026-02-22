@@ -137,7 +137,7 @@ const About = () => {
             <div ref={imageRef} className="relative">
               <div className="relative aspect-[4/5] rounded-3xl overflow-hidden">
                 <img
-                  src="/about-portrait.jpg"
+                  src="/about.jpg"
                   alt="About Joyanta"
                   className="w-full h-full object-cover"
                 />
@@ -150,7 +150,7 @@ const About = () => {
               
               {/* Experience Card */}
               <div className="absolute bottom-8 left-8 glass-strong rounded-2xl p-6">
-                <div className="text-4xl font-display font-bold text-topaz mb-1">5+</div>
+                <div className="text-4xl font-display font-bold text-topaz mb-1">1+</div>
                 <div className="text-white/70 text-sm">Years of<br />Experience</div>
               </div>
             </div>
