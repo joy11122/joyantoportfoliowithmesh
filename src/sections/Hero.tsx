@@ -214,14 +214,14 @@ const Hero = () => {
             <div className="order-1 lg:order-2 relative">
               <div
                 ref={imageRef}
-                className="relative aspect-[3/4] mx-auto lg:max-w-none"
+                className="relative aspect-[3/4] mx-auto"
               >
                 {/* Image Frame */}
                 <div className="absolute inset-0 rounded-3xl overflow-hidden">
                   <img
                     src="/hero.jpg"
                     alt="Joyanta Halder"
-                    className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                    className="w-full h-full object-cover transition-all duration-700"
                   />
                   {/* Gradient Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
