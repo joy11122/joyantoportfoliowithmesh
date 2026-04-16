@@ -143,19 +143,19 @@ const CTA = () => {
                 {
                   icon: Mail,
                   label: 'Email',
-                  value: 'hello@joyantahalder.com',
-                  href: 'mailto:hello@joyantahalder.com',
+                  value: 'joyhaldar112233@gmail.com',
+                  href: 'mailto: joyhaldar112233@gmail.com',
                 },
                 {
                   icon: Phone,
                   label: 'Phone',
-                  value: '+1 (555) 123-4567',
-                  href: 'tel:+15551234567',
+                  value: '+8801904914544',
+                  href: 'tel:+8801904914544',
                 },
                 {
                   icon: MapPin,
                   label: 'Location',
-                  value: 'San Francisco, CA',
+                  value: 'Khulna, Bangladesh',
                   href: '#',
                 },
               ].map((contact, index) => (
