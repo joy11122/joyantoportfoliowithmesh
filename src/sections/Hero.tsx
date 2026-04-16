@@ -214,7 +214,7 @@ const Hero = () => {
             <div className="order-1 lg:order-2 relative">
               <div
                 ref={imageRef}
-                className="relative aspect-[3/4] max-w-md mx-auto lg:max-w-none"
+                className="relative aspect-[3/4] mx-auto lg:max-w-none"
               >
                 {/* Image Frame */}
                 <div className="absolute inset-0 rounded-3xl overflow-hidden">
