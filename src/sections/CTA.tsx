@@ -119,7 +119,7 @@ const CTA = () => {
             {/* CTA Buttons */}
             <div className="reveal-item flex flex-wrap justify-center gap-4 mb-16">
               <a
-                href="mailto:hello@joyantahalder.com"
+                href="mailto:joyhaldar112233@gmail.com"
                 className="btn-neon inline-flex items-center gap-2"
               >
                 Start a Project
