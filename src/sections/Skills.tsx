@@ -12,17 +12,17 @@ const Skills = () => {
   const skills = [
     { name: 'Webflow', level: 95, color: 'from-topaz to-golden' },
     { name: 'HTML/CSS', level: 98, color: 'from-topaz to-golden' },
-    { name: 'JavaScript', level: 90, color: 'from-topaz to-golden' },
-    { name: 'React', level: 85, color: 'from-topaz to-golden' },
-    { name: 'TypeScript', level: 80, color: 'from-topaz to-golden' },
+    { name: 'JavaScript', level: 75, color: 'from-topaz to-golden' },
+    { name: 'React', level: 75, color: 'from-topaz to-golden' },
+    
     { name: 'UI/UX Design', level: 88, color: 'from-topaz to-golden' },
     { name: 'GSAP Animation', level: 92, color: 'from-topaz to-golden' },
     { name: 'SEO Optimization', level: 85, color: 'from-topaz to-golden' },
   ];
 
   const tools = [
-    'Figma', 'Adobe XD', 'VS Code', 'Git', 'Webpack', 'Tailwind CSS',
-    'Framer Motion', 'Three.js', 'Node.js', 'MongoDB'
+    'Figma', 'VS Code', 'Git', 'Webpack', 'Tailwind CSS',
+      'Node.js', 'MongoDB'
   ];
 
   useEffect(() => {
