@@ -18,6 +18,40 @@ function App() {
   const mainRef = useRef<HTMLDivElement>(null);
   const triggersRef = useRef<ScrollTrigger[]>([]);
 
+  // ========================================================
+  // Meta Pixel Initialization & PageView Tracking
+  // ========================================================
+  useEffect(() => {
+    // Check if fbq is already initialized to prevent duplicate scripts
+    if (!(window as any).fbq) {
+      !(function (f: any, b: any, e: any, v: any, n: any, t: any, s: any) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+      // Initialize with your unique Pixel ID
+      (window as any).fbq('init', '1378447597539400');
+    }
+
+    // Fire a PageView event automatically on component mount
+    (window as any).fbq('track', 'PageView');
+  }, []);
+
+  // ========================================================
+  // GSAP Animations Configuration
+  // ========================================================
   useEffect(() => {
     // Initialize smooth scroll behavior
     const ctx = gsap.context(() => {
